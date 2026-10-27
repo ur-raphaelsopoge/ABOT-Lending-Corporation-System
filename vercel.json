@@ -12,12 +12,12 @@
       "dest": "/public/build/$1"
     },
     {
-      "src": "/favicon.ico",
-      "dest": "/public/favicon.ico"
+      "src": "/storage/(.*)",
+      "dest": "/public/storage/$1"
     },
     {
-      "src": "/robots.txt",
-      "dest": "/public/robots.txt"
+      "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))",
+      "dest": "/public/$1"
     },
     {
       "src": "/(.*)",
